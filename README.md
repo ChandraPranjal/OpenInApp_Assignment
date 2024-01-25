@@ -37,6 +37,25 @@ TWILIO_PHONE_NUMBER=
 
 ```
 
-Make sure to replace the placeholder values with your actual credentials.
 
+
+Make sure to replace the placeholder values with your actual credentials.
+### Running the Application
+
+To start the application, run the following command:
+s:
+
+```bash
+npm start
+
+```
+
+### For development with automatic restart on file changes, use:
+
+
+
+```bash
+npm run dev
+
+```
 
