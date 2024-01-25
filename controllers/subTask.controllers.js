@@ -87,6 +87,7 @@ const deleteSubTask = async (req, res) => {
       }
   
       subtask.isDeleted = true;
+      subtask.deleted_at = new Date();
   
       const deletedSubtask = await subtask.save();
       await updateParentTaskStatus(subtaskId);
